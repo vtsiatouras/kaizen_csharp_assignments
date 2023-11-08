@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session2", "Session2", "{0CE00C53-DC52-4430-B98D-F2E65BF60D74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyErpApp", "MyErpApp", "{C2F51CD5-DDF7-401E-B480-2596BD2BCFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyErp.Application", "src\Session2\MyErpApp\MyErp.Application\MyErp.Application.csproj", "{36BCAFAA-10B4-42F9-B29E-B994A79A9986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyErp.Business", "src\Session2\MyErpApp\MyErp.Business\MyErp.Business.csproj", "{85981EFA-8F13-42CB-8FCD-F562EA69DE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyErp.DAL", "src\Session2\MyErpApp\MyErp.DAL\MyErp.DAL.csproj", "{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyErp.PrintServices", "src\Session2\MyErpApp\MyErp.PrintServices\MyErp.PrintServices.csproj", "{9DB3954C-CB91-4849-B712-773C152D5345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36BCAFAA-10B4-42F9-B29E-B994A79A9986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BCAFAA-10B4-42F9-B29E-B994A79A9986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BCAFAA-10B4-42F9-B29E-B994A79A9986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BCAFAA-10B4-42F9-B29E-B994A79A9986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85981EFA-8F13-42CB-8FCD-F562EA69DE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85981EFA-8F13-42CB-8FCD-F562EA69DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85981EFA-8F13-42CB-8FCD-F562EA69DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85981EFA-8F13-42CB-8FCD-F562EA69DE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB3954C-CB91-4849-B712-773C152D5345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB3954C-CB91-4849-B712-773C152D5345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB3954C-CB91-4849-B712-773C152D5345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB3954C-CB91-4849-B712-773C152D5345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2F51CD5-DDF7-401E-B480-2596BD2BCFA1} = {0CE00C53-DC52-4430-B98D-F2E65BF60D74}
+		{36BCAFAA-10B4-42F9-B29E-B994A79A9986} = {C2F51CD5-DDF7-401E-B480-2596BD2BCFA1}
+		{85981EFA-8F13-42CB-8FCD-F562EA69DE73} = {C2F51CD5-DDF7-401E-B480-2596BD2BCFA1}
+		{5432BAB6-CD18-4CF7-A9F2-C90B8B2529F4} = {C2F51CD5-DDF7-401E-B480-2596BD2BCFA1}
+		{9DB3954C-CB91-4849-B712-773C152D5345} = {C2F51CD5-DDF7-401E-B480-2596BD2BCFA1}
+	EndGlobalSection
+EndGlobal
